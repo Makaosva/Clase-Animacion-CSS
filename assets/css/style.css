@@ -1,3 +1,11 @@
+body{
+  background-color: black;
+  color: aliceblue;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+}
 button {
   background-color: #0077ff;
   color: white;
@@ -16,8 +24,10 @@ button:hover {
   height: 100px;
   background-color: blue;
   /*transition: all 1s;
-  transition: width 3s;*/
+  transition: width 3s;
   transition: all 1s ease;
+  transition: all 1s linear;*/
+  transition: all 1s steps(5);
 }
 .box:hover {
   width: 200px;
