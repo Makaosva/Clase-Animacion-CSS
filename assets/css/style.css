@@ -1,8 +1,8 @@
-body{
+body {
   background-color: black;
   color: aliceblue;
 }
-*{
+* {
   margin: 0px;
   padding: 0px;
 }
@@ -40,18 +40,18 @@ button:hover {
   background-color: red;
 }
 
-a{
+a {
   text-decoration: none;
-  color: rgb(11,163,110);
+  color: rgb(11, 163, 110);
   margin: 20px;
   font-size: 24px;
 }
 
-a span{
+a span {
   transition: all 1s;
 }
 
-a span:hover{
+a span:hover {
   text-transform: capitalize;
   color: darkblue;
 }
@@ -62,4 +62,85 @@ a span:hover{
   height: 100px;
   background-color: cornflowerblue;
   transform: rotate(45deg) scale(1.5);
+}
+
+.tf {
+  margin: 30px;
+}
+.tf {
+  width: 100px;
+  height: 100px;
+  background-color: cornflowerblue;
+  transform: rotate(45deg);
+}
+.tf2 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  transform: rotate(30deg);
+  margin: 60px;
+}
+
+.tf2:hover {
+  width: 200px;
+  height: 200px;
+  transform: rotate(30deg) scale(2);
+  margin: 100px;
+}
+.animation {
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  margin: 20px;
+  animation-name: colorear;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+}
+
+@keyframes colorear {
+  from {
+    background-color: #0079a1;
   }
+  to {
+    background-color: orange;
+  }
+}
+
+.container {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vh;
+}
+
+.text {
+  font-size: 3em;
+  animation: move 4s infinite;
+  animation-duration: alternate;
+}
+
+@keyframes move {
+  /* form {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(200px);
+  }*/
+
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(100px);
+  }
+  50% {
+    transform: translateX(0) rotate(180deg);
+  }
+  75% {
+    transform: translateX(-100px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
