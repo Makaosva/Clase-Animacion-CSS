@@ -10,3 +10,15 @@ button {
 button:hover {
   background-color: rgb(255, 140, 0);
 }
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  transition: all 1s;
+  }
+  .box:hover {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  }
