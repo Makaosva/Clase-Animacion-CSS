@@ -24,7 +24,7 @@ button:hover {
 .box {
   width: 100px;
   height: 100px;
-  margin: 10px;
+  margin: 20px;
   background-color: blue;
   /*transition: all 1s ease-out;
   transition: all 1s;
@@ -38,4 +38,20 @@ button:hover {
   width: 200px;
   height: 200px;
   background-color: red;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(11,163,110);
+  margin: 20px;
+  font-size: 24px;
+}
+
+a span{
+  transition: all 1s;
+}
+
+a span:hover{
+  text-transform: capitalize;
+  color: darkblue;
 }
