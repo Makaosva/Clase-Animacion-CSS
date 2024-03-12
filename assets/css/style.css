@@ -55,3 +55,11 @@ a span:hover{
   text-transform: capitalize;
   color: darkblue;
 }
+
+.box1 {
+  margin: 100px;
+  width: 100px;
+  height: 100px;
+  background-color: cornflowerblue;
+  transform: rotate(45deg) scale(1.5);
+  }
