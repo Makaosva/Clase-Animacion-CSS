@@ -15,10 +15,12 @@ button:hover {
   width: 100px;
   height: 100px;
   background-color: blue;
-  transition: all 1s;
-  }
-  .box:hover {
+  /*transition: all 1s;
+  transition: width 3s;*/
+  transition: all 1s ease;
+}
+.box:hover {
   width: 200px;
   height: 200px;
   background-color: red;
-  }
+}
